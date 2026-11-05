@@ -1,0 +1,22 @@
+{
+  "revision": "audit-2",
+  "scope": "src/loan_application.py, src/underwriting_engine.py (wad18.py audited once in shared-wad18)",
+  "note": "Equivalence arguments are accompanied by grid/brute-force evidence run in the audit (see CLAIMS_SHEET.md).",
+  "supersedes": "EQ-UW-01..28 of v1.0. Display strings, threshold metadata and the 1-cent guards (EQ-UW-23,24,26,27,28) were TEST GAPS, now closed by tests/test_gap_audit.py.",
+  "equivalences": [
+    {
+      "id": "EQ-UW-A1",
+      "file": "src/underwriting_engine.py",
+      "line": 49,
+      "mutant": "sys.path.insert(1,...)",
+      "evidence": "argument: import resolution unchanged"
+    },
+    {
+      "id": "EQ-UW-A2",
+      "file": "src/underwriting_engine.py",
+      "line": 243,
+      "mutant": "required_reserves = 1",
+      "evidence": "dead assignment: DECLINE branch never passes it on. 0 differences in full underwrite() output over 6000 random applications"
+    }
+  ]
+}
