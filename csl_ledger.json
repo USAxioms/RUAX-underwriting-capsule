@@ -1,0 +1,154 @@
+[
+  {
+    "H_i": "f9dd61abba6967869f84d069f4dc3bccb69ccc788d00c85d17fd0037aab3c91e",
+    "H_prev": "0000000000000000000000000000000000000000000000000000000000000000",
+    "S_i": {
+      "_label": "GENESIS",
+      "algorithm": "Three-tier DTI/LTV/Score rule engine",
+      "arithmetic": "WAD-18 exact integer",
+      "capsule": "underwriting-capsule",
+      "network": "DISABLED",
+      "tiers": {
+        "FHA_GRADE": "score\u2265620,DTI\u226450%,LTV\u226496.5%,emp\u226512m",
+        "PRIME": "score\u2265720,DTI\u226436%,LTV\u226480%,emp\u226524m",
+        "STANDARD": "score\u2265680,DTI\u226443%,LTV\u226495%,emp\u226524m"
+      },
+      "version": "1.0.0"
+    },
+    "T_i": "2026-11-02T09:56:04.822791+00:00",
+    "i": 0
+  },
+  {
+    "H_i": "78bbcb85a97945ab9933cb0ac25d4afaa5a047609a5779f375d36af08c818f61",
+    "H_prev": "f9dd61abba6967869f84d069f4dc3bccb69ccc788d00c85d17fd0037aab3c91e",
+    "S_i": {
+      "_label": "prime_conventional",
+      "application_id": "APP-001",
+      "conditions": [],
+      "credit_score": 780,
+      "decision": "APPROVE",
+      "dti_back_pct": "24.44",
+      "label": "prime_conventional",
+      "ltv_pct": "70.00",
+      "pass_decision": true,
+      "pass_tier": true,
+      "tier": "PRIME"
+    },
+    "T_i": "2026-11-02T09:56:04.823325+00:00",
+    "i": 1
+  },
+  {
+    "H_i": "bbc3817e0d8e6b524740cc980ecb879f6902303d8cf056948c72d5ff9512439c",
+    "H_prev": "78bbcb85a97945ab9933cb0ac25d4afaa5a047609a5779f375d36af08c818f61",
+    "S_i": {
+      "_label": "standard_with_pmi",
+      "application_id": "APP-002",
+      "conditions": [
+        "COND_PMI_REQUIRED"
+      ],
+      "credit_score": 700,
+      "decision": "APPROVE_WITH_CONDITIONS",
+      "dti_back_pct": "38.18",
+      "label": "standard_with_pmi",
+      "ltv_pct": "95.00",
+      "pass_decision": true,
+      "pass_tier": true,
+      "tier": "STANDARD"
+    },
+    "T_i": "2026-11-02T09:56:04.824098+00:00",
+    "i": 2
+  },
+  {
+    "H_i": "d3b79e2b1aa4643c77b80564c80f31e70b5fe9de5cec87d7963aa0547f1a510c",
+    "H_prev": "bbc3817e0d8e6b524740cc980ecb879f6902303d8cf056948c72d5ff9512439c",
+    "S_i": {
+      "_label": "fha_grade",
+      "application_id": "APP-003",
+      "conditions": [
+        "COND_PMI_REQUIRED",
+        "COND_EMPLOYMENT_DOCS"
+      ],
+      "credit_score": 640,
+      "decision": "APPROVE_WITH_CONDITIONS",
+      "dti_back_pct": "41.11",
+      "label": "fha_grade",
+      "ltv_pct": "96.46",
+      "pass_decision": true,
+      "pass_tier": true,
+      "tier": "FHA_GRADE"
+    },
+    "T_i": "2026-11-02T09:56:04.824984+00:00",
+    "i": 3
+  },
+  {
+    "H_i": "d2785c132c5956eb1f997fa67b50a91498a57f5c340538d7eda7967551461d7a",
+    "H_prev": "d3b79e2b1aa4643c77b80564c80f31e70b5fe9de5cec87d7963aa0547f1a510c",
+    "S_i": {
+      "_label": "decline_high_dti",
+      "application_id": "APP-004",
+      "conditions": [],
+      "credit_score": 720,
+      "decision": "DECLINE",
+      "dti_back_pct": "70.00",
+      "label": "decline_high_dti",
+      "ltv_pct": "97.22",
+      "pass_decision": true,
+      "pass_tier": true,
+      "tier": "DECLINE"
+    },
+    "T_i": "2026-11-02T09:56:04.825859+00:00",
+    "i": 4
+  },
+  {
+    "H_i": "9d341465fc56abfed3495bade476fe33de9d1686d5c507d501b46dfe4729deb1",
+    "H_prev": "d2785c132c5956eb1f997fa67b50a91498a57f5c340538d7eda7967551461d7a",
+    "S_i": {
+      "_label": "self_employed_prime",
+      "application_id": "APP-005",
+      "conditions": [
+        "COND_SELF_EMPLOYED_TAX_RETURNS"
+      ],
+      "credit_score": 760,
+      "decision": "APPROVE_WITH_CONDITIONS",
+      "dti_back_pct": "34.00",
+      "label": "self_employed_prime",
+      "ltv_pct": "68.57",
+      "pass_decision": true,
+      "pass_tier": true,
+      "tier": "PRIME"
+    },
+    "T_i": "2026-11-02T09:56:04.826653+00:00",
+    "i": 5
+  },
+  {
+    "H_i": "07e2a418f1e38f49e45187392bede9cdde542cafa81ba0e6133245b039bc5eff",
+    "H_prev": "9d341465fc56abfed3495bade476fe33de9d1686d5c507d501b46dfe4729deb1",
+    "S_i": {
+      "_label": "decline_low_score",
+      "application_id": "APP-006",
+      "conditions": [],
+      "credit_score": 580,
+      "decision": "DECLINE",
+      "dti_back_pct": "25.00",
+      "label": "decline_low_score",
+      "ltv_pct": "75.00",
+      "pass_decision": true,
+      "pass_tier": true,
+      "tier": "DECLINE"
+    },
+    "T_i": "2026-11-02T09:56:04.827474+00:00",
+    "i": 6
+  },
+  {
+    "H_i": "8df04eac1aa53f27178803e0cc66942e1b31223621aa043dff8e784b2ac3fb51",
+    "H_prev": "07e2a418f1e38f49e45187392bede9cdde542cafa81ba0e6133245b039bc5eff",
+    "S_i": {
+      "H_final": "07e2a418f1e38f49e45187392bede9cdde542cafa81ba0e6133245b039bc5eff",
+      "_label": "FINALIZATION",
+      "all_pass": true,
+      "n_decisions": 6
+    },
+    "T_i": "2026-11-02T09:56:04.828307+00:00",
+    "i": 7
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "applications": [
+    {
+      "application_id":   "APP-001",
+      "label":            "prime_conventional",
+      "expected_decision":"APPROVE",
+      "expected_tier":    "PRIME",
+      "loan_type":        "CONVENTIONAL",
+      "loan_amount_cents":   28000000,
+      "appraised_value_cents": 40000000,
+      "property_type":    "SINGLE_FAMILY",
+      "occupancy_type":   "PRIMARY",
+      "proposed_monthly_payment_cents": 170000,
+      "application_date": "2026-11-01",
+      "borrowers": [{
+        "borrower_id":                 "BRW-001A",
+        "gross_monthly_income_cents":  900000,
+        "employment_type":             "W2",
+        "employment_months":           84,
+        "credit_score":                780,
+        "monthly_debt_payments_cents": 50000,
+        "liquid_assets_cents":         800000
+      }]
+    },
+    {
+      "application_id":   "APP-002",
+      "label":            "standard_with_pmi",
+      "expected_decision":"APPROVE_WITH_CONDITIONS",
+      "expected_tier":    "STANDARD",
+      "loan_type":        "CONVENTIONAL",
+      "loan_amount_cents":   19000000,
+      "appraised_value_cents": 20000000,
+      "property_type":    "SINGLE_FAMILY",
+      "occupancy_type":   "PRIMARY",
+      "proposed_monthly_payment_cents": 130000,
+      "application_date": "2026-11-01",
+      "borrowers": [{
+        "borrower_id":                 "BRW-002A",
+        "gross_monthly_income_cents":  550000,
+        "employment_type":             "W2",
+        "employment_months":           36,
+        "credit_score":                700,
+        "monthly_debt_payments_cents": 80000,
+        "liquid_assets_cents":         350000
+      }]
+    },
+    {
+      "application_id":   "APP-003",
+      "label":            "fha_grade",
+      "expected_decision":"APPROVE_WITH_CONDITIONS",
+      "expected_tier":    "FHA_GRADE",
+      "loan_type":        "FHA",
+      "loan_amount_cents":   17750000,
+      "appraised_value_cents": 18400000,
+      "property_type":    "SINGLE_FAMILY",
+      "occupancy_type":   "PRIMARY",
+      "proposed_monthly_payment_cents": 125000,
+      "application_date": "2026-11-01",
+      "borrowers": [{
+        "borrower_id":                 "BRW-003A",
+        "gross_monthly_income_cents":  450000,
+        "employment_type":             "W2",
+        "employment_months":           18,
+        "credit_score":                640,
+        "monthly_debt_payments_cents": 60000,
+        "liquid_assets_cents":         150000
+      }]
+    },
+    {
+      "application_id":   "APP-004",
+      "label":            "decline_high_dti",
+      "expected_decision":"DECLINE",
+      "expected_tier":    "DECLINE",
+      "loan_type":        "CONVENTIONAL",
+      "loan_amount_cents":   35000000,
+      "appraised_value_cents": 36000000,
+      "property_type":    "SINGLE_FAMILY",
+      "occupancy_type":   "PRIMARY",
+      "proposed_monthly_payment_cents": 250000,
+      "application_date": "2026-11-01",
+      "borrowers": [{
+        "borrower_id":                 "BRW-004A",
+        "gross_monthly_income_cents":  500000,
+        "employment_type":             "W2",
+        "employment_months":           48,
+        "credit_score":                720,
+        "monthly_debt_payments_cents": 100000,
+        "liquid_assets_cents":         500000
+      }]
+    },
+    {
+      "application_id":   "APP-005",
+      "label":            "self_employed_prime",
+      "expected_decision":"APPROVE_WITH_CONDITIONS",
+      "expected_tier":    "PRIME",
+      "loan_type":        "CONVENTIONAL",
+      "loan_amount_cents":   48000000,
+      "appraised_value_cents": 70000000,
+      "property_type":    "SINGLE_FAMILY",
+      "occupancy_type":   "PRIMARY",
+      "proposed_monthly_payment_cents": 280000,
+      "application_date": "2026-11-01",
+      "borrowers": [{
+        "borrower_id":                 "BRW-005A",
+        "gross_monthly_income_cents":  2000000,
+        "employment_type":             "SELF_EMPLOYED",
+        "employment_months":           60,
+        "credit_score":                760,
+        "monthly_debt_payments_cents": 400000,
+        "liquid_assets_cents":         3000000
+      }]
+    },
+    {
+      "application_id":   "APP-006",
+      "label":            "decline_low_score",
+      "expected_decision":"DECLINE",
+      "expected_tier":    "DECLINE",
+      "loan_type":        "CONVENTIONAL",
+      "loan_amount_cents":   15000000,
+      "appraised_value_cents": 20000000,
+      "property_type":    "SINGLE_FAMILY",
+      "occupancy_type":   "PRIMARY",
+      "proposed_monthly_payment_cents": 100000,
+      "application_date": "2026-11-01",
+      "borrowers": [{
+        "borrower_id":                 "BRW-006A",
+        "gross_monthly_income_cents":  600000,
+        "employment_type":             "W2",
+        "employment_months":           36,
+        "credit_score":                580,
+        "monthly_debt_payments_cents": 50000,
+        "liquid_assets_cents":         400000
+      }]
+    }
+  ]
+}
