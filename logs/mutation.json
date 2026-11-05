@@ -1,0 +1,913 @@
+{
+  "mutants": [
+    {
+      "elapsed": 0.218,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:46:not\u2192",
+      "line": 46,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:48:<\u2192<=",
+      "line": 48,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:48:0\u21921",
+      "line": 48,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.192,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:50:<\u2192<=",
+      "line": 50,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.18,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:50:0\u21921",
+      "line": 50,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.204,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:52:<\u2192<=",
+      "line": 52,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.182,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:52:0\u21921",
+      "line": 52,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:54:not\u2192",
+      "line": 54,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.177,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:54:<=\u2192<",
+      "line": 54,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:54:<=\u2192<",
+      "line": 54,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.19,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:56:<\u2192<=",
+      "line": 56,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.23,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:56:0\u21921",
+      "line": 56,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.228,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:110:not\u2192",
+      "line": 110,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.194,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:112:not\u2192",
+      "line": 112,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.201,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:114:not\u2192",
+      "line": 114,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.203,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:116:<=\u2192<",
+      "line": 116,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.205,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:116:0\u21921",
+      "line": 116,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:118:<=\u2192<",
+      "line": 118,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.186,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:118:0\u21921",
+      "line": 118,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.187,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:120:<=\u2192<",
+      "line": 120,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.187,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:120:0\u21921",
+      "line": 120,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.221,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:122:not\u2192",
+      "line": 122,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.195,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:154:0\u21921",
+      "line": 154,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.186,
+      "file": "src/loan_application.py",
+      "id": "src/loan_application.py:157:-\u2192+",
+      "line": 157,
+      "mutant": "+",
+      "original": "-",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.187,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:49:0\u21921",
+      "line": 49,
+      "mutant": "1",
+      "original": "0",
+      "status": "SURVIVED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:95:2\u21923",
+      "line": 95,
+      "mutant": "3",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.238,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:95:2\u21921",
+      "line": 95,
+      "mutant": "1",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.212,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:96:2\u21923",
+      "line": 96,
+      "mutant": "3",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.19,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:96:2\u21921",
+      "line": 96,
+      "mutant": "1",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.253,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:97:1\u21922",
+      "line": 97,
+      "mutant": "2",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.236,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:97:1\u21920",
+      "line": 97,
+      "mutant": "0",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.206,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:98:4\u21925",
+      "line": 98,
+      "mutant": "5",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:98:4\u21923",
+      "line": 98,
+      "mutant": "3",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.184,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:117:==\u2192!=",
+      "line": 117,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:117:0\u21921",
+      "line": 117,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.199,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:120:+\u2192-",
+      "line": 120,
+      "mutant": "-",
+      "original": "+",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.173,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:131:==\u2192!=",
+      "line": 131,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.173,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:131:0\u21921",
+      "line": 131,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.174,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:145:==\u2192!=",
+      "line": 145,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.204,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:145:0\u21921",
+      "line": 145,
+      "mutant": "1",
+      "original": "0",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.208,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:162:>\u2192>=",
+      "line": 162,
+      "mutant": ">=",
+      "original": ">",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.18,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:166:<\u2192<=",
+      "line": 166,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.2,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:170:==\u2192!=",
+      "line": 170,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.193,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:175:<\u2192<=",
+      "line": 175,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.211,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:179:==\u2192!=",
+      "line": 179,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.204,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:188:>=\u2192>",
+      "line": 188,
+      "mutant": ">",
+      "original": ">=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:189:and\u2192or",
+      "line": 189,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.195,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:189:<=\u2192<",
+      "line": 189,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.168,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:190:and\u2192or",
+      "line": 190,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.165,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:190:<=\u2192<",
+      "line": 190,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.192,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:191:and\u2192or",
+      "line": 191,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.184,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:191:>=\u2192>",
+      "line": 191,
+      "mutant": ">",
+      "original": ">=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.192,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:195:>=\u2192>",
+      "line": 195,
+      "mutant": ">",
+      "original": ">=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.18,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:196:and\u2192or",
+      "line": 196,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.183,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:196:<=\u2192<",
+      "line": 196,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:197:and\u2192or",
+      "line": 197,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.207,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:197:<=\u2192<",
+      "line": 197,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:198:and\u2192or",
+      "line": 198,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.222,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:198:>=\u2192>",
+      "line": 198,
+      "mutant": ">",
+      "original": ">=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.182,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:204:not\u2192",
+      "line": 204,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.205,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:205:False\u2192True",
+      "line": 205,
+      "mutant": "True",
+      "original": "False",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.216,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:206:>=\u2192>",
+      "line": 206,
+      "mutant": ">",
+      "original": ">=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.203,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:207:and\u2192or",
+      "line": 207,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.204,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:207:<=\u2192<",
+      "line": 207,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.222,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:208:and\u2192or",
+      "line": 208,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.216,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:208:<=\u2192<",
+      "line": 208,
+      "mutant": "<",
+      "original": "<=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.231,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:209:and\u2192or",
+      "line": 209,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.177,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:209:>=\u2192>",
+      "line": 209,
+      "mutant": ">",
+      "original": ">=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.177,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:243:0\u21921",
+      "line": 243,
+      "mutant": "1",
+      "original": "0",
+      "status": "SURVIVED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:246:!=\u2192==",
+      "line": 246,
+      "mutant": "==",
+      "original": "!=",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.191,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:253:==\u2192!=",
+      "line": 253,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.191,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:255:not\u2192",
+      "line": 255,
+      "mutant": "",
+      "original": "not",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.179,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:257:and\u2192or",
+      "line": 257,
+      "mutant": "or",
+      "original": "and",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.238,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:257:==\u2192!=",
+      "line": 257,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.167,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:257:1\u21922",
+      "line": 257,
+      "mutant": "2",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.177,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:257:1\u21920",
+      "line": 257,
+      "mutant": "0",
+      "original": "1",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.189,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:265:<\u2192<=",
+      "line": 265,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.169,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:267:>\u2192>=",
+      "line": 267,
+      "mutant": ">=",
+      "original": ">",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:269:>\u2192>=",
+      "line": 269,
+      "mutant": ">=",
+      "original": ">",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.175,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:271:<\u2192<=",
+      "line": 271,
+      "mutant": "<=",
+      "original": "<",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.17,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:286:2\u21923",
+      "line": 286,
+      "mutant": "3",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.181,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:286:2\u21921",
+      "line": 286,
+      "mutant": "1",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.182,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:287:2\u21923",
+      "line": 287,
+      "mutant": "3",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.168,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:287:2\u21921",
+      "line": 287,
+      "mutant": "1",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.163,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:288:2\u21923",
+      "line": 288,
+      "mutant": "3",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.154,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:288:2\u21921",
+      "line": 288,
+      "mutant": "1",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.162,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:289:2\u21923",
+      "line": 289,
+      "mutant": "3",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.207,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:289:2\u21921",
+      "line": 289,
+      "mutant": "1",
+      "original": "2",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.196,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:303:>\u2192>=",
+      "line": 303,
+      "mutant": ">=",
+      "original": ">",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:306:==\u2192!=",
+      "line": 306,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.163,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:307:==\u2192!=",
+      "line": 307,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.156,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:309:==\u2192!=",
+      "line": 309,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.17,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:310:==\u2192!=",
+      "line": 310,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.156,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:311:4\u21925",
+      "line": 311,
+      "mutant": "5",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.176,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:311:4\u21923",
+      "line": 311,
+      "mutant": "3",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.19,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:312:==\u2192!=",
+      "line": 312,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.163,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:313:==\u2192!=",
+      "line": 313,
+      "mutant": "!=",
+      "original": "==",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.166,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:314:4\u21925",
+      "line": 314,
+      "mutant": "5",
+      "original": "4",
+      "status": "KILLED"
+    },
+    {
+      "elapsed": 0.198,
+      "file": "src/underwriting_engine.py",
+      "id": "src/underwriting_engine.py:314:4\u21923",
+      "line": 314,
+      "mutant": "3",
+      "original": "4",
+      "status": "KILLED"
+    }
+  ],
+  "started_utc": "2026-11-03T23:10:38.113424+00:00",
+  "summary": {
+    "effective_kill_rate_percent": 100,
+    "exhaustive": true,
+    "finished_utc": "2026-11-03T23:10:57.311439+00:00",
+    "killed": 97,
+    "mutants": 99,
+    "proven_equivalent": 2,
+    "raw_kill_rate_percent": 98,
+    "revision": "audit-2 (harness repaired; wad18.py audited separately; earlier equivalence labels re-examined)",
+    "scope": "loan_application.py + underwriting_engine.py",
+    "survived": 2,
+    "unexplained_survivors": 0
+  },
+  "targets": [
+    "src/loan_application.py",
+    "src/underwriting_engine.py"
+  ]
+}
